@@ -1,0 +1,19 @@
+{
+    "name": "translate-microservice",
+    "version": "1.0.1",
+    "description": "Online Translator Micro-service. Currently supports Google & Bing",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js",
+        "cronjob": "node cronjob.js"
+    },
+    "author": "softzer0",
+    "license": "MIT",
+    "dependencies": {
+        "@iamtraction/google-translate": "github:iamtraction/google-translate",
+        "bing-translate-api": "^2.2.1",
+        "cron": "^1.8.2",
+        "express": "^4.17.1",
+        "npm-check-updates": "^11.8.5"
+    }
+}
